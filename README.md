@@ -34,7 +34,8 @@ Convert a monolith architecture based docker-compose application into a microser
 ## Build & Run
 ```
 # under the microservices directory
-docker-compose build
+docker-compose -f Docker-compose.yaml up --build
+access the html page in localhost:5050
 ```
 ### To stop the services in detached mode
 ```
