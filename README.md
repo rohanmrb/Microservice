@@ -77,8 +77,7 @@ docker-compose down
 </p>
 
 
-## Miscellaneous
-- Directory structure of additional arithmetic microservices:
+## Directory structure of arithmetic microservices:
 ```
 ├── <name of the service>
 │   ├── Dockerfile           # same as landing/Dockerfile
